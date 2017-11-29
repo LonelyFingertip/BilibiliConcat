@@ -65,14 +65,6 @@ def BConcat(videopath,outputpath):
 
 
 if __name__ == '__main__':
-	# print(GetVideoName(r'D:\Downloads\BilibiliDownload\16751135\desktop.ini'))
-	# print(GetPartName(r'D:\Downloads\BilibiliDownload\9770302\2\9770302.info'))
 	videopath=r'D:\Downloads\BilibiliDownload\16751135';
 	outputpath=r'D:\Downloads\BilibiliDownload\16751135'
 	BConcat(videopath,outputpath)
-#		os.system("")
-		# for f in fs:
-		# 	print(os.path.join(fpathe,f))
-		#ffmpeg -f concat -safe 0 -i filelist.txt -c copy 123.flv
-		#ffmpeg -f concat -safe 0 -i "D:\\Downloads\\BilibiliDownload\\9770302\\1\\filelist.txt" -c copy "D:\\Downloads\\BilibiliDownload\\9770302\\01_Review.flv"
-		#
